@@ -1,5 +1,6 @@
 from django.db import models
 
+#tabela de vendas
 class Sale(models.Model):
     date = models.DateField()
     product = models.CharField(max_length=100)
